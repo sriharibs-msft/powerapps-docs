@@ -52,6 +52,8 @@ You can add up to 10 levels of related table conditions using the filter editor 
 
 - When you choose the **Search for rows in a table using advanced filters** option or the **Advanced find** button ![Advanced find button.](media/advanced_filter_icon.png "Advanced find button") when working in a  **Dynamics 365 - Custom** app with a [modern, advanced find experience](/power-platform/admin/settings-features) enabled, you might see a loading spinner appear indefinitely.
 
+- If your administrator has enabled [Show advanced lookup in lookup fields within Edit filters](/power-platform/admin/settings-features), you will see **Advanced lookup** option to lookup a value. However, the **Advanced lookup** option will not be available on columns that have the same name as the table name. For example, if you are adding a filter condition on a view of **Accounts** table, **Advanced lookup** option will not be available on the column **Account**.
+
 ## See also
 
 [Explore data in a view on a grid page](grid-filters.md)  
